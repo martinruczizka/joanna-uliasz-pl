@@ -1,0 +1,50 @@
+name: Publish approved website
+on:
+  workflow_dispatch:
+    inputs:
+      confirm_release:
+        description: Publish the reviewed website release
+        type: boolean
+        required: true
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    if: github.ref == 'refs/heads/main' && inputs.confirm_release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check approved release
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          root = Path('site')
+          assert (root / 'index.html').is_file(), 'Missing reviewed index.html'
+          assert (root / '.nojekyll').is_file(), 'Missing .nojekyll'
+          approval = json.loads((root / 'release-approved.json').read_text())
+          assert approval.get('approved') is True, 'Release has not been approved'
+          for p in root.rglob('*'):
+              assert not p.is_symlink(), f'Symlink is not allowed: {p}'
+              if p.is_file():
+                  assert p.suffix.lower() not in {'.msg', '.eml', '.sqlite', '.db', '.dpapi'}, f'Private source type: {p}'
+          PY
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
