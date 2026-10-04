@@ -1,0 +1,30 @@
+/* Joanna Uliasz: Warm Executive v1.0; approved by Martin 2026-10-03. */
+:root {
+  --joanna-khaki: #71695E;
+  --joanna-wine: #7A4651;
+  --joanna-ivory: #F6F2EA;
+  --joanna-stone: #D3CCC2;
+  --joanna-ink: #2E2926;
+}
+
+/* Web handoff V01, 2026-10-04. Load brand-colors.css first.
+   Semantic aliases of the accepted palette; no new brand colors. */
+:root {
+  --joanna-page-bg: var(--joanna-ivory);
+  --joanna-surface-bg: var(--joanna-stone);
+  --joanna-text: var(--joanna-ink);
+  --joanna-text-secondary-on-ivory: var(--joanna-khaki);
+  --joanna-text-secondary-on-stone: var(--joanna-ink);
+  --joanna-link: var(--joanna-wine);
+  --joanna-link-hover: var(--joanna-ink);
+  --joanna-cta-bg: var(--joanna-wine);
+  --joanna-cta-text: var(--joanna-ivory);
+  --joanna-cta-hover-bg: var(--joanna-ink);
+  --joanna-cta-active-bg: var(--joanna-ink);
+  --joanna-border-decorative: var(--joanna-stone);
+  --joanna-border-control-on-light: var(--joanna-khaki);
+  --joanna-focus-on-light: var(--joanna-wine);
+  --joanna-focus-on-dark: var(--joanna-ivory);
+  --joanna-dark-bg: var(--joanna-ink);
+  --joanna-text-on-dark: var(--joanna-ivory);
+}
