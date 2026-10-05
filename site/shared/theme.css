@@ -16,11 +16,11 @@
   --joanna-text-secondary-on-ivory: var(--joanna-khaki);
   --joanna-text-secondary-on-stone: var(--joanna-ink);
   --joanna-link: var(--joanna-wine);
-  --joanna-link-hover: var(--joanna-khaki);
+  --joanna-link-hover: var(--joanna-ink);
   --joanna-cta-bg: var(--joanna-wine);
   --joanna-cta-text: var(--joanna-ivory);
-  --joanna-cta-hover-bg: var(--joanna-khaki);
-  --joanna-cta-active-bg: var(--joanna-khaki);
+  --joanna-cta-hover-bg: var(--joanna-ink);
+  --joanna-cta-active-bg: var(--joanna-ink);
   --joanna-border-decorative: var(--joanna-stone);
   --joanna-border-control-on-light: var(--joanna-khaki);
   --joanna-focus-on-light: var(--joanna-wine);
