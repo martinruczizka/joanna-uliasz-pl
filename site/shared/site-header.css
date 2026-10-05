@@ -1,6 +1,6 @@
 .topbar{position:sticky;top:0;z-index:20;background:var(--joanna-page-bg);border-bottom:1px solid var(--joanna-stone)}
 .nav{width:min(1180px,calc(100% - 32px));min-height:72px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:24px}
-.brand{display:flex;align-items:center;flex:0 0 260px}.brand img{display:block;width:260px;height:auto}.nav-links{display:flex;align-items:center;gap:20px;white-space:nowrap;font-size:.91rem}.nav-links a:not(.button){color:var(--joanna-ink);text-decoration:none}.nav-links a:not(.button):hover{text-decoration:underline;color:var(--joanna-wine)}
+.brand{display:flex;align-items:center;flex:0 0 260px}.brand img{display:block;width:260px;height:auto}.nav-links{display:flex;align-items:center;gap:20px;white-space:nowrap;font-size:.91rem}.nav-links a:not(.button){color:var(--joanna-ink);text-decoration:none}.nav-links a:not(.button):hover{text-decoration:underline;color:var(--joanna-link-hover)}
 @media(min-width:1025px) and (max-width:1180px){.nav{gap:18px}.nav-section-link{display:none}}
 @media(min-width:721px) and (max-width:1024px){.nav-section-link{display:none}}
 @media(max-width:720px){.nav{min-height:62px;padding:10px 0;gap:16px}.brand{flex:0 0 36px}.brand img{width:36px;height:36px}.nav-section-link{display:none}.nav-links{gap:0}.nav-links .button{min-height:42px;padding:0 16px}}
