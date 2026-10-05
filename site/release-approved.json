@@ -4,7 +4,8 @@
   "approved_by": "Martin",
   "approved_on": "2026-10-05",
   "robots": "noindex,nofollow",
-  "index_sha256": "481c588d3e86e8e5e03ee94041aafc07676485936091e37b3a9fdc91daca6a78",
+  "index_sha256": "dd5875d2bc17df72c7576812fac9828efc094f76ce7e2c35b7227fe0201fb3f7",
   "pdf_url": "https://downloads.joanna-uliasz.pl/Profil_Joanna_Uliasz_PL.pdf",
-  "pdf_robots": "noindex, nofollow"
+  "pdf_robots": "noindex, nofollow",
+  "social_image": "https://joanna-uliasz.pl/assets/media/joanna-uliasz-share-v01.jpg"
 }
