@@ -1,11 +1,18 @@
 {
   "approved": true,
-  "version": "WEB-LIVE-V01",
+  "version": "WEB-PL-V03",
   "approved_by": "Martin",
-  "approved_on": "2026-10-05",
+  "approved_on": "2026-10-07",
   "robots": "noindex,nofollow",
-  "index_sha256": "1da3926aca4e7d75d7da583c7dcac2136caf5d1ce1849c6314d3e877433d198a",
+  "index_sha256": "d01edcad3ea8548e0075606b13ed1b16dd96336c3d4963ea25fde5a2980faad8",
   "pdf_url": "https://downloads.joanna-uliasz.pl/Profil_Joanna_Uliasz_PL.pdf",
   "pdf_robots": "noindex, nofollow",
-  "social_image": "https://joanna-uliasz.pl/assets/media/joanna-uliasz-share-v03.jpg"
+  "social_image": "https://joanna-uliasz.pl/assets/media/joanna-uliasz-share-v03.jpg",
+  "pdf_sha256": "102d6f23a9c48af4578084ef41641de296f8996fd4c0f813041c3ecd6d1e1c28",
+  "website_authority": {
+    "statement_id": "VALS-0401",
+    "purpose": "external_portal",
+    "record_sha256": "0b20b4afea71f178852d9fc814c1eb2f5dcedc9ab0ddd34b44ffa5aa64ccdbe4",
+    "decision_id": "VALD-0136"
+  }
 }
