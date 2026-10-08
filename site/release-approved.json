@@ -2,9 +2,9 @@
   "approved": true,
   "version": "WEB-PL-V03",
   "approved_by": "Martin",
-  "approved_on": "2026-10-07",
+  "approved_on": "2026-10-08",
   "robots": "noindex,nofollow",
-  "index_sha256": "d01edcad3ea8548e0075606b13ed1b16dd96336c3d4963ea25fde5a2980faad8",
+  "index_sha256": "9a20aedaf5bf9d2d1d46fab5c13b2b157646a1ccc8804d22022521bbf8dbe0c1",
   "pdf_url": "https://downloads.joanna-uliasz.pl/Profil_Joanna_Uliasz_PL.pdf",
   "pdf_robots": "noindex, nofollow",
   "social_image": "https://joanna-uliasz.pl/assets/media/joanna-uliasz-share-v03.jpg",
@@ -14,5 +14,7 @@
     "purpose": "external_portal",
     "record_sha256": "0b20b4afea71f178852d9fc814c1eb2f5dcedc9ab0ddd34b44ffa5aa64ccdbe4",
     "decision_id": "VALD-0136"
-  }
+  },
+  "contact_linkedin": "https://www.linkedin.com/in/joanna-uliasz/",
+  "contact_linkedin_authorization": "Martin direct GO 2026-10-08"
 }
