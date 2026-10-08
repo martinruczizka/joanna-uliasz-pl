@@ -4,17 +4,19 @@
   "approved_by": "Martin",
   "approved_on": "2026-10-08",
   "robots": "noindex,nofollow",
-  "index_sha256": "9a20aedaf5bf9d2d1d46fab5c13b2b157646a1ccc8804d22022521bbf8dbe0c1",
+  "index_sha256": "fb86c35f317390cf4534d433bf709c7d47e10e990fd3f71a733c68d1a444ca56",
   "pdf_url": "https://downloads.joanna-uliasz.pl/Profil_Joanna_Uliasz_PL.pdf",
   "pdf_robots": "noindex, nofollow",
   "social_image": "https://joanna-uliasz.pl/assets/media/joanna-uliasz-share-v03.jpg",
   "pdf_sha256": "102d6f23a9c48af4578084ef41641de296f8996fd4c0f813041c3ecd6d1e1c28",
   "website_authority": {
-    "statement_id": "VALS-0401",
+    "statement_id": "VALS-0415",
     "purpose": "external_portal",
-    "record_sha256": "0b20b4afea71f178852d9fc814c1eb2f5dcedc9ab0ddd34b44ffa5aa64ccdbe4",
-    "decision_id": "VALD-0136"
+    "decision_id": "VALD-0145",
+    "record_sha256": "e4be0ff14695190452cc0e813e1f772b109abdf25b68484e5f1035fb237a4d0f"
   },
   "contact_linkedin": "https://www.linkedin.com/in/joanna-uliasz/",
-  "contact_linkedin_authorization": "Martin direct GO 2026-10-08"
+  "contact_linkedin_authorization": "Martin direct GO 2026-10-08",
+  "text_correction_package": "WEBSITE-TEXT-PREP-V01",
+  "text_correction_authorization": "Martin text-only GO 2026-10-08"
 }
